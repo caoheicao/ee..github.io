@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+
+    <body>
+        <video id="video" src="https://d1.xia12345.com/video/202204/6246917dd287231edf808cdf/hd.mp4" controls="controls" autoplay height="30%" width="100%">您的浏览器不支持。</video>
+        <button type="button" style="text-align: center;" onclick="launchFullScreen(document.getElementById('video'))">全屏</button>
+    </body>
+
+    <script type="text/javascript">
+    //全屏幕播放
+    function launchFullScreen(element) {
+      if(element.requestFullScreen) {
+        element.requestFullScreen();
+      } else if(element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if(element.webkitRequestFullScreen) {
+        element.webkitRequestFullScreen();
+      }
+    }
+    </script>
+</html>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test</title>
+    <style>
+        p{
+            font-size:50px/*字体大小为50px*/    
+        }
+    </style>
+</head>
+
+<body>
+<p>拉五人进群免踢</p>
+<p>长时间未拉着机器人自动踢出</p>
+<p>机器人正在检测中...</p>
+</body>
+</html>
